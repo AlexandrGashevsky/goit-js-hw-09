@@ -14,6 +14,7 @@ function createPromise(position, delay) {
 return promise;
 }
 
+
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   let delay = Number(event.currentTarget.delay.value);
